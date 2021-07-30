@@ -1,6 +1,6 @@
 # Discretization-Aware Architecture Search
 
-
+**DAAS has been accepted by [PR(2021)](https://www.sciencedirect.com/science/article/pii/S0031320321003733)， [arxiv:](https://arxiv.org/pdf/2007.03154.pdf).
 
 Weight-sharing methods determine sub-networks by discretization, i.e. by pruning off weak candidates, and the discretization process incurs signficant inaccuracy. We propose discretization-aware architecture search to alleviate this issue. The main idea is to introduce an additional term to the loss function, so that the architectural parameters of the super-network is gradually pushed towards the desired configuration during the search process.
 <p align="center">
